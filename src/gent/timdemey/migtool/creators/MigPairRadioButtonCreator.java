@@ -1,7 +1,7 @@
-package migtool.creators;
+package gent.timdemey.migtool.creators;
 
-import migtool.pairs.IMigPair;
-import migtool.pairs.MigPairRadioButton;
+import gent.timdemey.migtool.pairs.IMigPair;
+import gent.timdemey.migtool.pairs.MigPairRadioButton;
 
 public class MigPairRadioButtonCreator implements IMigPairCreator {
 

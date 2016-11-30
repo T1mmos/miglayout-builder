@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package migtool.pairs;
+package gent.timdemey.migtool.pairs;
 
 import java.awt.Color;
 import java.util.Random;

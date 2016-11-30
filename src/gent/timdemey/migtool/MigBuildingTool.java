@@ -1,6 +1,6 @@
-package migtool;
+package gent.timdemey.migtool;
 
-import migtool.creators.IMigPairCreator;
+import gent.timdemey.migtool.creators.IMigPairCreator;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
@@ -45,17 +45,17 @@ import javax.swing.border.LineBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
-import migtool.creators.MigPairButtonCreator;
-import migtool.creators.MigPairCheckBoxCreator;
-import migtool.creators.MigPairComboBoxCreator;
-import migtool.creators.MigPairIconLabelCreator;
-import migtool.creators.MigPairLabelCreator;
-import migtool.creators.MigPairPanelCreator;
-import migtool.creators.MigPairRadioButtonCreator;
-import migtool.creators.MigPairSeparatorCreator;
-import migtool.creators.MigPairTextFieldCreator;
-import migtool.pairs.IMigPair;
-import migtool.pairs.MigPairPanel;
+import gent.timdemey.migtool.creators.MigPairButtonCreator;
+import gent.timdemey.migtool.creators.MigPairCheckBoxCreator;
+import gent.timdemey.migtool.creators.MigPairComboBoxCreator;
+import gent.timdemey.migtool.creators.MigPairIconLabelCreator;
+import gent.timdemey.migtool.creators.MigPairLabelCreator;
+import gent.timdemey.migtool.creators.MigPairPanelCreator;
+import gent.timdemey.migtool.creators.MigPairRadioButtonCreator;
+import gent.timdemey.migtool.creators.MigPairSeparatorCreator;
+import gent.timdemey.migtool.creators.MigPairTextFieldCreator;
+import gent.timdemey.migtool.pairs.IMigPair;
+import gent.timdemey.migtool.pairs.MigPairPanel;
 import net.miginfocom.swing.MigLayout;
 
 public class MigBuildingTool extends JPanel {

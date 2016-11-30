@@ -1,7 +1,7 @@
-package migtool.creators;
+package gent.timdemey.migtool.creators;
 
-import migtool.pairs.IMigPair;
-import migtool.pairs.MigPairCheckBox;
+import gent.timdemey.migtool.pairs.IMigPair;
+import gent.timdemey.migtool.pairs.MigPairCheckBox;
 
 public class MigPairCheckBoxCreator implements IMigPairCreator {
 

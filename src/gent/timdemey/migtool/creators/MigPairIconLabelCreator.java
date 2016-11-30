@@ -1,7 +1,7 @@
-package migtool.creators;
+package gent.timdemey.migtool.creators;
 
-import migtool.pairs.IMigPair;
-import migtool.pairs.MigPairIconLabel;
+import gent.timdemey.migtool.pairs.IMigPair;
+import gent.timdemey.migtool.pairs.MigPairIconLabel;
 
 public class MigPairIconLabelCreator implements IMigPairCreator {
 

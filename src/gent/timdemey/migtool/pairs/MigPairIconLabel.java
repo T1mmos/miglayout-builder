@@ -1,15 +1,18 @@
-package migtool.pairs;
+package gent.timdemey.migtool.pairs;
 
 import javax.swing.JLabel;
 
-public class MigPairLabel extends AbstractMigPair {
-    public MigPairLabel () {
-        super("JLabel", new JLabel("some label"));
+import gent.timdemey.migtool.MigBuildingTool;
+
+public class MigPairIconLabel extends AbstractMigPair {
+
+    public MigPairIconLabel() {
+        super("Icon Label", new JLabel(MigBuildingTool.getIcon("random")));
     }
 
     @Override
     public String getEditMessage() {
-        return "Set the label text";
+        return "Set the Icon Label's text";
     }
 
     @Override
@@ -21,4 +24,5 @@ public class MigPairLabel extends AbstractMigPair {
     public String getContentValue() {
         return ((JLabel) getComponent()).getText();
     }
+
 }

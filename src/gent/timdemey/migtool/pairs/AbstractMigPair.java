@@ -1,4 +1,4 @@
-package migtool.pairs;
+package gent.timdemey.migtool.pairs;
 
 import java.awt.Cursor;
 import javax.swing.JButton;

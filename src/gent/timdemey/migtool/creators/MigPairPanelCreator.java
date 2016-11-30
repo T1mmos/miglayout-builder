@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-package migtool.creators;
+package gent.timdemey.migtool.creators;
 
-import migtool.pairs.IMigPair;
-import migtool.pairs.MigPairPanel;
+import gent.timdemey.migtool.pairs.IMigPair;
+import gent.timdemey.migtool.pairs.MigPairPanel;
 
 /**
  *
