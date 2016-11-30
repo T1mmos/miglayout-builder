@@ -496,7 +496,8 @@ public class MigBuildingTool extends JPanel {
     }
 
     public static ImageIcon getIcon(String name) {
-        return new ImageIcon(MigBuildingTool.class.getResource(name.contains(".") ? name : name + ".png"));
+    	String full = "res/" + (name.contains(".") ? name : name + ".png");
+        return new ImageIcon(MigBuildingTool.class.getResource(full));
     }
 
     public static void main(String[] args) {
